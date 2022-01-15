@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Person from './Person';
 import imgSrc from './photo.jpg';
 import './App.css';
+import LifecycleA from './LifecycleA';
  class App extends Component {
 
    state = {
@@ -30,10 +31,10 @@ import './App.css';
         <p>{this.state.fullName}</p>
         <p>{this.state.bio}</p>
         <p>{this.state.profession}</p>
-
+      <LifecycleA/>
       </div>
     )
   }
 }
 
-export default App
+export default App;
